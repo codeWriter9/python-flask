@@ -33,7 +33,7 @@ def home(age):
 
 @app.route('/', methods = ['GET'])
 def hello_world():
-  return 'Hello, World, Here I come!'
+  return '<p><b>Hello, World</b>, <br>Here I come!</p>'
 
 app.add_url_rule("/about","about",about)
 app.run(host='0.0.0.0', port=8080, debug = True)
